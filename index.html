@@ -1,33 +1,21 @@
 <!doctype html>
 <html lang="en">
   <head>
+
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <title>Menu Zap</title>
-    
-    
+    <title>Menu Zap</title> 
+
     <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="./index.css">
+
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css">
-
-    <style>
-        .mButton {background-color: darkslateblue; border: 1px solid; border-radius: 25px; width:175px; padding: 2px; margin: 10px; justify-items: center;}
-        img {width: 100%;  border-top-right-radius:25px; border-top-left-radius:25px; border-bottom-right-radius:15px; border-bottom-left-radius:15px;}
-        h1 {font-size:2em; color:white; font-weight: normal; text-align:center; }
-        h2  {font-size:3em; color: rgb(255, 255, 255); font-weight: normal; text-align:left; }
-    </style>
-
+    <link rel="stylesheet" href="./index.css">
     </head>
-
-
 <body>
 
     <!-- NAV -->
-    
-
-
     <div>
         <div class="row" style="background-color:darkslateblue; width:100%; ">
             <div class="col" style="text-align: left; padding-left:30px;">
@@ -39,6 +27,25 @@
                 <path d="M14 1a1 1 0 0 1 1 1v12a1 1 0 0 1-1 1H2a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1h12zM2 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2H2z"/>
                 <path d="M8 4a.5.5 0 0 1 .5.5v3h3a.5.5 0 0 1 0 1h-3v3a.5.5 0 0 1-1 0v-3h-3a.5.5 0 0 1 0-1h3v-3A.5.5 0 0 1 8 4z"/>
             </svg>
+
+            <button class="btn btn.add">Add</button>
+            <button class="btn btn.del">Delete</button>
+            <!--Add Modal-->
+<div class="add-modal modal-wrapper">testeststts
+    <div class="modal">
+        <div class="modal-header"><h3>Add New User</h3></div>
+        <div class="modal-body">
+            <form class="form" autocomplete="off">
+            <input type="text" name="btnName" placeholder="btnName">
+            <input type="text" name="smsNum" placeholder="smsNum">
+            <input type="text" name="email" placeholder="smsNum">
+            <btn class="btn btn-modal">Submit</btn>
+            </form>
+        </div>
+    </div>
+</div>
+
+
             </div>
         </div>
     </div>
@@ -72,7 +79,14 @@
                 <img src="https://cdn.shopify.com/s/files/1/2592/4910/products/Holster-1.png?v=1546556329">
                 <h1>Call Mae</h1>
             </div>        
-    
+            <div class="mButton">
+                <img src="https://cdn.shopify.com/s/files/1/2592/4910/products/Holster-1.png?v=1546556329">
+                <h1>Call Mae</h1>
+            </div>        
+            <div class="mButton">
+                <img src="https://cdn.shopify.com/s/files/1/2592/4910/products/Holster-1.png?v=1546556329">
+                <h1>Call Mae</h1>
+            </div>        
             <div class="mButton">
                 <img src="https://cdn.shopify.com/s/files/1/2592/4910/products/Holster-1.png?v=1546556329">
                 <h1>Call Mae</h1>
@@ -82,23 +96,14 @@
                 <h1>Call Mae</h1>
             </div>        
     
-            <div class="mButton">
-                <img src="https://cdn.shopify.com/s/files/1/2592/4910/products/Holster-1.png?v=1546556329">
-                <h1>Call Mae</h1>
-            </div>        
-            <div class="mButton">
-                <img src="https://cdn.shopify.com/s/files/1/2592/4910/products/Holster-1.png?v=1546556329">
-                <h1>Call Mae</h1>
-            </div>        
-    
-  
-
         </div>
     </div>
+
     
-    
-    
+<script src="./script.js"></script>
+
 <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+
 <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
